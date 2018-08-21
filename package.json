@@ -1,0 +1,20 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "curso node udeny",
+  "main": "noticas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabrielgianotti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "err": "^2.1.10",
+    "express": "^4.16.3",
+    "express-validator": "^3.2.1",
+    "mysql": "^2.15.0"
+  }
+}

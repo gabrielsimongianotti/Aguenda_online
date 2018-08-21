@@ -1,0 +1,21 @@
+Express Validator
+
+Comando: npm install express-validator@3.2.1 --save
+
+Descrição: o Express Validator faz a validação dos 
+dados para ter uma consistencia das informações no
+banco de dados.
+
+---------------------------------------------------
+Banco de Dados Mysql
+create table noticias(
+    id_noticia int not null primary key auto_increment,
+    titulo varchar(100),
+    noticias text,
+    data_criacao timestamp defauult current_timestamp);
+    )
+    
+alter table noticias add column resumo varchar(100);
+alter table noticias add column autor varchar(30);
+alter table noticias add column data_n date;
+
